@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T00:35:04.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="dihjLaq5owqqK9Hpp0nQ" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T00:51:03.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rAhS8vZGTUqTHlxHUz0v" version="15.3.5" type="github">
   <diagram id="yIKTc5rXVRvDXj7MSaZU" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="v0OCPKup1ps943AbuGvK-6" value="&lt;b&gt;&lt;u style=&quot;color: rgb(204 , 0 , 0)&quot;&gt;VM-CAPSTONE&lt;/u&gt;&lt;br&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;192.168.1.105&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffd966&quot;&gt;OS:&lt;/font&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;WINDOWS&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#a680b8&quot;&gt;VICTIM SERVER&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;u&gt;V&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="231" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v0OCPKup1ps943AbuGvK-27" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#CC0000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="v0OCPKup1ps943AbuGvK-7" target="v0OCPKup1ps943AbuGvK-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v0OCPKup1ps943AbuGvK-7" value="VM-ELK&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;192.168.1.100&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffd966&quot;&gt;OS:&lt;/font&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;LINUX&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#a680b8&quot;&gt;LOG/ATTACK MONITORING&lt;br&gt;&lt;/font&gt;&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Workstation_128x128.png;hachureGap=4;pointerEvents=0;fontStyle=5;fontColor=#CC0000;" vertex="1" parent="1">
           <mxGeometry x="710" y="408" width="80" height="80" as="geometry" />
@@ -39,6 +42,31 @@
         </mxCell>
         <mxCell id="v0OCPKup1ps943AbuGvK-18" value="&lt;b&gt;&lt;font&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;NETWORK&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;IP RANGE:&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp; &amp;nbsp;192.168.1.0/16&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;BROADCAST:&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt; 192.168.1.255&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;GATEWAY:&amp;nbsp;&lt;font color=&quot;#000000&quot;&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;192.168.1.1&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontColor=#CC0000;fontSize=17;labelBackgroundColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="100" y="240" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v0OCPKup1ps943AbuGvK-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontSize=17;fontColor=#CC0000;exitX=0.045;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v0OCPKup1ps943AbuGvK-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="650" as="sourcePoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v0OCPKup1ps943AbuGvK-29" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontSize=17;fontColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="240" as="sourcePoint" />
+            <mxPoint x="500" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v0OCPKup1ps943AbuGvK-30" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontSize=17;fontColor=#CC0000;entryX=0.985;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="v0OCPKup1ps943AbuGvK-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="442" as="sourcePoint" />
+            <mxPoint x="554.4200000000001" y="444.6" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T00:53:51.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="SOl6iV3_W6qU4MZObjpR" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T00:54:43.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="weFZR2dY-1sVYsnYix2O" version="15.3.5" type="github">
   <diagram id="yIKTc5rXVRvDXj7MSaZU" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v0OCPKup1ps943AbuGvK-7" value="VM-ELK&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;192.168.1.100&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffd966&quot;&gt;OS:&lt;/font&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;LINUX&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#a680b8&quot;&gt;LOG/ATTACK MONITORING&lt;br&gt;&lt;/font&gt;&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Workstation_128x128.png;hachureGap=4;pointerEvents=0;fontStyle=5;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="710" y="408" width="80" height="80" as="geometry" />
+          <mxGeometry x="720" y="410" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="v0OCPKup1ps943AbuGvK-8" value="VM-KALI&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;192.168.1.8&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffd966&quot;&gt;OS:&lt;/font&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;LINUX&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#a680b8&quot;&gt;HACKER&#39;S MACHINE&lt;/font&gt;" style="image;html=1;image=img/lib/clip_art/computers/Monitor_128x128.png;hachureGap=4;pointerEvents=0;fontColor=#CC0000;fontStyle=5" vertex="1" parent="1">
           <mxGeometry x="720" y="586" width="80" height="80" as="geometry" />
